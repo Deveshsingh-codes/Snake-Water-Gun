@@ -24,6 +24,17 @@ while No_of_chance<Chance:
     elif _input=="s" and _random=="w":
         Human_point=Human_point+1
         print(f"your guess {_input} and computer guess is {_random}\n")
+    
+    #if user enter w
+    elif _input=="w" and _random=="s":
+        Computer_point=Computer_point+1
+        print(f"your guess{_input} and Computer guess is {_random}\n")
+        print("Computer wins 1 point\n")
+        print(f"Computer_point is {Computer_point} and your point is {Human_point}\n")
+    elif _input=="w" and _random=="g":
+        Human_point=Human_point+1
+        print(f"your guess {_input} and computer guess is {_random}\n")
+        
     #if user enter w
     elif _input=="w" and _random=="s":
         Computer_point=Computer_point+1
